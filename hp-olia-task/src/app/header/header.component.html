@@ -1,0 +1,21 @@
+<div class="row header-content">
+  <div class="col-md-1 img-content">
+    <img src="../../assets/images/HP.png" class="img-size" />
+  </div>
+
+  <div class="col-md-8 title-content">
+    <h2>HP Indigo </h2>
+    <h1>Service Portal</h1>
+  </div>
+
+  <div class="col-md-2 menu-content">
+
+    <i class="fa fa-bars fa-2x" (click)="isOpen = !isOpen"></i>
+
+    <h2>Menu</h2>
+
+  </div>
+
+</div>
+
+<app-menu-bar *ngIf="isOpen"></app-menu-bar>
